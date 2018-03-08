@@ -1,6 +1,6 @@
 <template>
   <div class="utility page-bg">
-    <div class="pagebar">
+    <div class="pagebar pagebar-utility">
       <h1 class="header-text">Utility</h1>
     </div>
     <div class="stem-container container">

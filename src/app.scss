@@ -23,7 +23,6 @@ body {
 .pagebar {
   width: 100%;
   height: 90px;
-  background-color: #45c8fe;
   box-shadow: inset 0 -5px 0 0 rgba(27, 31, 36, 0.3);
   z-index: -1; // margin-bottom: 70px;
   h1.header-text {
@@ -39,6 +38,24 @@ body {
     text-transform: uppercase;
     text-shadow: 2px 2px 2px rgba(27, 31, 36, 0.3);
   }
+}
+.pagebar-utility {
+  background: #45c8fe;
+}
+.pagebar-vision {
+  background: #5da9ff;
+}
+.pagebar-roadmap {
+  background: #6d95ff;
+}
+.pagebar-team {
+  background: #7e7fff;
+}
+.pagebar-news {
+  background: #8e6bff;
+}
+.pagebar-support {
+  background: #a367ff;
 }
 
 .page-bg {
@@ -64,10 +81,15 @@ body {
   margin-top: -25px;
 }
 
+.brain {
+  width: 65%;
+}
+
 .video {
   margin-top: 10px;
   text-align: center;
 }
+
 .navbar {
   background: #1b1f24;
   .brand-anchor {
@@ -107,6 +129,7 @@ body {
   a.support {
     color: #a367ff;
   }
+
   a.whitepaper {
     font-family: Montserrat;
     font-size: 13px;
@@ -118,6 +141,10 @@ body {
     background-color: #ffffff;
     box-shadow: inset 0 -3px 0 0 rgba(204, 204, 204, 0.5);
   }
+}
+
+.header-section {
+  padding: 20px 0;
 }
 
 .home-section {
@@ -135,9 +162,14 @@ body {
     padding: 10px 50px 20px 0;
   }
   .home-image {
-    padding: 40px 0;
+    padding: 10px 0;
     color: #fff;
     text-align: center;
+    margin-bottom: -90px;
+    img {
+      width: 80%;
+      padding: 10px;
+    }
   }
   .button {
     color: #a367ff;
@@ -162,4 +194,9 @@ body {
   border-radius: 4px;
   background-color: #ffffff;
   box-shadow: inset 0 -5px 0 0 rgba(221, 221, 221, 0.5);
+}
+
+.stock-section {
+  height: 90px;
+  background: #fff;
 }

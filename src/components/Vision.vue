@@ -1,6 +1,6 @@
 <template>
   <div class="vision page-bg">
-    <div class="pagebar">
+    <div class="pagebar pagebar-vision">
       <h1 class="header-text">Vision</h1>
     </div>
     <div class="stem-container container">

@@ -15,7 +15,7 @@
             </div>
             <div class="column">
               <div class="home-image">
-                IMAGE GOES HERE
+                <img src="../assets/header/brain.svg" alt="">
               </div>
             </div>
           </div>

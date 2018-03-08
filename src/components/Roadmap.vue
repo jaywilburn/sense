@@ -1,6 +1,6 @@
 <template>
   <div class="roadmap page-bg">
-    <div class="pagebar">
+    <div class="pagebar pagebar-roadmap">
       <h1 class="header-text">Roadmap</h1>
     </div>
     <div class="stem-container container">
