@@ -1,5 +1,5 @@
 <template>
-  <div class="roadmap page-bg">
+  <div id="roadmap-page" class="roadmap page-bg">
     <div class="pagebar pagebar-roadmap">
       <h1 class="header-text">Roadmap</h1>
     </div>
@@ -7,22 +7,58 @@
       <div class="columns">
         <div class="column">
           <div class="square-section">
-            Stuff
+            <h4 class="roadmap-header">Q1</h4>
+            <div class="circle-section">
+
+            </div>
+            <div class="columns">
+              <div class="column">
+                <h4 class="global-header mesh-color-1">Contact v1 </h4>
+                <p class="global-text">{{ roadmap.contact }}</p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="column">
           <div class="square-section">
-            Stuff
+            <h4 class="roadmap-header">Q2</h4>
+            <div class="circle-section">
+
+            </div>
+            <div class="columns">
+              <div class="column">
+                <h4 class="global-header mesh-color-2">Attribute SDKs</h4>
+                <p class="global-text">{{ roadmap.attribute }}</p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="column">
           <div class="square-section">
-            Stuff
+            <h4 class="roadmap-header">Q3</h4>
+            <div class="circle-section">
+
+            </div>
+            <div class="columns">
+              <div class="column">
+                <h4 class="global-header mesh-color-1">Access v2</h4>
+                <p class="global-text">{{ roadmap.access }}</p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="column">
           <div class="square-section">
-            Stuff
+            <h4 class="roadmap-header">Q4</h4>
+            <div class="circle-section">
+
+            </div>
+            <div class="columns">
+              <div class="column">
+                <h4 class="global-header mesh-color-4">Clarify v1 </h4>
+                <p class="global-text">{{ roadmap.clarify }}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -36,6 +72,15 @@
 
 <script>
 export default {
-
+  data () {
+    return {
+      roadmap: {
+        contact: 'Marrying a wallet address with a method of contact to create Contact Locker v1',
+        attribute: 'Web & Mobile Attribution SDKs to help applications make SENSE',
+        access: 'Platform to access human data and/or contact the humans behind that data',
+        clarify: 'Enables developers to make decision making bots, route-enabled recorded intents'
+      }
+    }
+  }
 }
 </script>

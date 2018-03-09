@@ -15,7 +15,8 @@
     "buefy": "^0.6.3",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.7",
-    "vue": "^2.5.2"
+    "vue": "^2.5.2",
+    "vue2-smooth-scroll": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

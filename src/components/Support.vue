@@ -1,15 +1,15 @@
 <template>
-  <div class="roadmap page-bg">
+  <div id="support-page" class="roadmap page-bg">
     <div class="pagebar pagebar-support">
       <h1 class="header-text">Support</h1>
     </div>
     <div class="stem-container container">
       <template>
-        <section>
-          <b-collapse class="card">
+        <section class="support-section">
+          <b-collapse class="card" :open="isOpen">
             <div slot="trigger" slot-scope="props" class="card-header">
               <p class="card-header-title">
-                  Component
+                  {{ questions.one }}
               </p>
               <a class="card-header-icon">
                 <b-icon
@@ -19,15 +19,14 @@
             </div>
             <div class="card-content">
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                <a>#buefy</a>.
+                {{ questions.oneAnswer }}
               </div>
             </div>
           </b-collapse>
-          <b-collapse class="card">
+          <b-collapse class="card" :open="isOpen">
             <div slot="trigger" slot-scope="props" class="card-header">
               <p class="card-header-title">
-                  Component
+                  {{ questions.two}}
               </p>
               <a class="card-header-icon">
                 <b-icon
@@ -37,8 +36,7 @@
             </div>
             <div class="card-content">
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                <a>#buefy</a>.
+                {{ questions.twoAnswer }}
               </div>
             </div>
           </b-collapse>
@@ -54,6 +52,16 @@
 
 <script>
 export default {
-
+  data () {
+    return {
+      isOpen: false,
+      questions: {
+        'one': 'How is SENSE used and why is it needed?',
+        'oneAnswer': 'Blah blah blah',
+        'two': 'What is the point of SENSE if I’m not a developer?',
+        'twoAnswer': 'Blah blah blah'
+      }
+    }
+  }
 }
 </script>

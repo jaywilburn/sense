@@ -14,25 +14,25 @@
         </div>
         <div class="navbar-end">
           <div class="navbar-item">
-            <a class="anchor utility" href="">Utility</a>
+            <a class="anchor utility" href="#utility-page" v-smooth-scroll>Utility</a>
           </div>
           <div class="navbar-item">
-            <a class="anchor vision" href="">Vision</a>
+            <a class="anchor vision" href="#vision-page" v-smooth-scroll>Vision</a>
           </div>
           <div class="navbar-item">
-            <a class="anchor roadmap" href="">Roadmap</a>
+            <a class="anchor roadmap" href="#roadmap-page" v-smooth-scroll>Roadmap</a>
           </div>
           <div class="navbar-item">
-            <a class="anchor team" href="">Team</a>
+            <a class="anchor team" href="#team-page" v-smooth-scroll>Team</a>
           </div>
           <div class="navbar-item">
-            <a class="anchor news" href="">News</a>
+            <a class="anchor news" href="#news-page" v-smooth-scroll>News</a>
           </div>
           <div class="navbar-item">
-            <a class="anchor support" href="">Support</a>
+            <a class="anchor support" href="#support-page" v-smooth-scroll>Support</a>
           </div>
           <div class="navbar-item">
-            <a class="anchor whitepaper" href="">Whitepaper</a>
+            <a class="anchor whitepaper" href="https://sensetoken.com/pdfs/sensetoken_whitepaper_en.pdf">Whitepaper</a>
           </div>
         </div>
       </div>
@@ -60,6 +60,5 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 })
 export default {
-
 }
 </script>

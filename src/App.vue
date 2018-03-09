@@ -7,6 +7,7 @@
     <Vision />
     <Roadmap />
     <Team />
+    <News />
     <Support />
     <Footer />
   </div>
@@ -20,6 +21,7 @@ import Utility from './components/Utility'
 import Vision from './components/Vision'
 import Roadmap from './components/Roadmap'
 import Team from './components/Team'
+import News from './components/News'
 import Support from './components/Support'
 import Footer from './components/Footer'
 export default {
@@ -32,6 +34,7 @@ export default {
     Vision,
     Roadmap,
     Team,
+    News,
     Support,
     Footer
   }

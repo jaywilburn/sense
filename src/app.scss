@@ -1,12 +1,15 @@
+// THE BASICS, FIRST...
 html,
 body {
-  background: #1b1f24;
+  // background: #1b1f24;
+  background: #0c0e11;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
+// GLOBAL STYLES
 .main-button {
   width: 200px;
   height: 48px;
@@ -39,21 +42,27 @@ body {
     text-shadow: 2px 2px 2px rgba(27, 31, 36, 0.3);
   }
 }
+
 .pagebar-utility {
   background: #45c8fe;
 }
+
 .pagebar-vision {
   background: #5da9ff;
 }
+
 .pagebar-roadmap {
   background: #6d95ff;
 }
+
 .pagebar-team {
   background: #7e7fff;
 }
+
 .pagebar-news {
   background: #8e6bff;
 }
+
 .pagebar-support {
   background: #a367ff;
 }
@@ -67,7 +76,7 @@ body {
   height: 52px;
   font-family: Montserrat;
   font-size: 34px;
-  font-weight: 800;
+  font-weight: 700;
   font-style: italic;
   font-stretch: normal;
   margin: 20px 0;
@@ -91,7 +100,7 @@ body {
 }
 
 .navbar {
-  background: #1b1f24;
+  background: #0c0e11;
   .brand-anchor {
     color: #fff;
     letter-spacing: 0.07em;
@@ -129,7 +138,6 @@ body {
   a.support {
     color: #a367ff;
   }
-
   a.whitepaper {
     font-family: Montserrat;
     font-size: 13px;
@@ -143,6 +151,30 @@ body {
   }
 }
 
+.mesh-color-1 {
+  color: #45c8fe;
+}
+
+.mesh-color-2 {
+  color: #5da9ff;
+}
+
+.mesh-color-3 {
+  color: #6d95ff;
+}
+
+.mesh-color-4 {
+  color: #7e7fff;
+}
+
+.mesh-color-5 {
+  color: #8e6bff;
+}
+
+.mesh-color-6 {
+  color: #a367ff;
+}
+
 .header-section {
   padding: 20px 0;
 }
@@ -154,7 +186,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     font-style: italic;
-    padding: 40px 0;
+    padding: 30px 0;
   }
   .subtitle {
     color: #fff;
@@ -180,6 +212,158 @@ body {
   }
 }
 
+.util-text {
+  padding: 0 30px;
+  align-self: flex-end;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #748397;
+  margin-top: auto;
+}
+
+.util-img {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.vision-img {
+  padding: 10px 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 15px 0;
+}
+
+.flex-column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.global-header {
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.global-bold {
+  font-weight: 600;
+}
+
+.global-text {
+  padding: 0px 30px;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.roadmap-header {
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: #748397;
+}
+
+.circle-section {
+  background: #fff;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  box-shadow: inset 0 -3px 0 0 rgba(221, 221, 221, 0.5);
+}
+
+.team-circle-section {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: inset 0 -3px 0 0 rgba(221, 221, 221, 0.5);
+}
+
+.team-name {
+  padding: 0 0 0 20px;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.team-position {
+  padding: 5px 0 0 20px;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.social-set {
+  padding: 1rem 0.25rem;
+}
+
+.social-icons img {
+  margin: 0 7px 0 0;
+  padding-top: 15px;
+}
+
+.news-headline {
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.news-excerpt {
+  padding: 0px 25px;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  text-align: left;
+  color: #748397;
+}
+
 .square-section {
   width: 248px;
   height: 300px;
@@ -199,4 +383,32 @@ body {
 .stock-section {
   height: 90px;
   background: #fff;
+}
+
+// FOOTER
+.footer {
+  background: #0c0311;
+}
+
+.card {
+  margin: 0 0 10px 0;
+  background-color: #1b1f24;
+  box-shadow: inset 0 -5px 0 0 rgba(12, 14, 17, 0.5);
+  border-radius: 4px;
+}
+
+p.card-header-title {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #748397;
+}
+
+.support-section {
+  max-width: 760px;
+  margin: 10px auto 0;
 }
