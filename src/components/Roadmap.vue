@@ -5,11 +5,12 @@
     </div>
     <div class="stem-container container">
       <div class="columns">
-        <div class="column roadmap">
+        <div class="column roadmap" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
           <div class="square-section">
             <h4 class="roadmap-header">Q1</h4>
             <div class="circle-section">
-              <vector class="vector-rm" src="../assets/roadmap/contact.svg" alt="vector-brain"></vector>
+              <img class="vector-rm" src="../assets/roadmap/contact.svg" alt="vector-brain">
+              <img class="half" src="../assets/roadmap/half2.svg" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -19,11 +20,12 @@
             </div>
           </div>
         </div>
-        <div class="column roadmap">
+        <div class="column roadmap" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
           <div class="square-section">
             <h4 class="roadmap-header">Q2</h4>
             <div class="circle-section">
-              <vector class="vector-rm" src="../assets/roadmap/sdks.svg" alt="vector-brain"></vector>
+              <img class="vector-rm" src="../assets/roadmap/sdks.svg" alt="vector-brain">
+              <img class="energy-cell" src="../assets/roadmap/open.svg" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -33,11 +35,12 @@
             </div>
           </div>
         </div>
-        <div class="column roadmap">
+        <div class="column roadmap" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
           <div class="square-section">
             <h4 class="roadmap-header">Q3</h4>
             <div class="circle-section">
-              <vector class="vector-rm" src="../assets/roadmap/belong.svg" alt="vector-brain"></vector>
+              <img class="vector-rm" src="../assets/roadmap/belong.svg" alt="vector-brain">
+              <img class="energy-cell" src="../assets/roadmap/open.svg" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -47,11 +50,12 @@
             </div>
           </div>
         </div>
-        <div class="column roadmap">
+        <div class="column roadmap" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="400">
           <div class="square-section">
             <h4 class="roadmap-header">Q4</h4>
             <div class="circle-section">
-              <vector class="vector-rm" src="../assets/roadmap/clarify.svg" alt="vector-brain"></vector>
+              <img class="vector-rm" src="../assets/roadmap/clarify.svg" alt="vector-brain">
+              <img class="energy-cell" src="../assets/roadmap/full.svg" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -71,10 +75,8 @@
 </template>
 
 <script>
-import Vector from './Vector'
 export default {
   components: {
-    Vector
   },
   data () {
     return {

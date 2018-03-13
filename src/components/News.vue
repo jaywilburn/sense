@@ -4,7 +4,7 @@
       <h1 class="header-text">News</h1>
     </div>
     <div class="stem-container container">
-      <div class="columns">
+      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="50">
         <div class="column">
           <a href="https://techcrunch.com/2016/08/02/sensay-chat-platform-raises-4-5m-in-seed-funding-from-nvp/">
           <div class="square-section">
@@ -66,7 +66,7 @@
           </a>
         </div>
       </div>
-      <div class="columns">
+      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="50">
         <div class="column">
           <a href="https://blog.botlist.co/bridging-the-gap-between-human-intelligence-and-ai-with-sense/">
           <div class="square-section">

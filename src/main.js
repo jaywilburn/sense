@@ -5,6 +5,8 @@ import App from './App'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
 import vueSmoothScroll from 'vue2-smooth-scroll'
+import AOS from 'aos'
+import '../node_modules/aos/dist/aos.css'
 Vue.use(Buefy, {
   defaultIconPack: 'fa'
 })
@@ -13,6 +15,9 @@ Vue.use(vueSmoothScroll)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  created () {
+    AOS.init({ disable: 'mobile' })
+  },
   components: { App },
   template: '<App/>'
 })

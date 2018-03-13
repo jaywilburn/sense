@@ -9,7 +9,7 @@
       </div>
       <h2 class="page-header">Sense Partners</h2>
       <div class="columns">
-        <div class="column">
+        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="50">
           <a href="https://www.ethereum.org/">
             <div class="square-section">
               <div class="square-header has-text-centered">
@@ -24,7 +24,7 @@
             </div>
           </a>
         </div>
-        <div class="column">
+        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
           <a href="https://eos.io/">
             <div class="square-section">
               <div class="square-header has-text-centered">
@@ -39,7 +39,7 @@
             </div>
           </a>
         </div>
-        <div class="column">
+        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="150">
           <a href="https://www.bancor.network/discover">
             <div class="square-section">
               <div class="square-header has-text-centered">
@@ -54,7 +54,7 @@
             </div>
           </a>
         </div>
-        <div class="column">
+        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
           <a href="https://jaxx.io/">
             <div class="square-section">
               <div class="square-header has-text-centered">

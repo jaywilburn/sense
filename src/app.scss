@@ -1,613 +1,764 @@
-  // THE BASICS, FIRST...
-  html,
-  body {
-    // background: #1b1f24;
-    background: #0c0e11;
-  }
-
-  body {
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  a {
-    color: #45c8fe;
-  }
-
-  .navbar-menu {
-    background-color: #0c0e11;
-  } // GLOBAL STYLES
-  .main-button {
-    width: 200px;
-    height: 48px;
-    border-radius: 4px;
-    background: #ffffff;
-    box-shadow: inset 0 -3px 0 0 rgba(204, 204, 204, 0.5);
-    color: #a367ff;
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-style: italic;
-    text-transform: uppercase;
-    &:hover {
-      background: #a367ff;
-      color: #fff;
-      transition: all 0.5s ease;
+    // THE BASICS, FIRST...
+    html,
+    body {
+      // background: #1b1f24;
+      background: #0c0e11;
     }
-  }
 
-  .sense-button {
-    background-color: #ffffff;
-    box-shadow: inset 0 -3px 0 0 rgba(204, 204, 204, 0.5);
-    color: #a367ff;
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-style: italic;
-    text-transform: uppercase;
-    &:hover {
-      background: #a367ff;
-      color: #fff;
-      transition: all 0.5s ease;
-    }
-  }
-
-  .pagebar {
-    width: 100%;
-    height: 90px;
-    box-shadow: inset 0 -5px 0 0 rgba(27, 31, 36, 0.3);
-    z-index: -1; // margin-bottom: 70px;
-    h1.header-text {
-      font-family: Montserrat;
-      font-size: 5rem;
-      font-weight: 800;
-      font-style: italic;
-      font-stretch: normal;
-      line-height: 1.25;
-      letter-spacing: normal;
-      text-align: center;
-      color: #ffffff;
-      text-transform: uppercase;
-      text-shadow: 2px 2px 2px rgba(27, 31, 36, 0.3);
-      @media screen and (max-width: 768px) {
-        font-size: 3.5rem;
-      }
-    }
-  }
-
-  .pagebar-utility {
-    background: #45c8fe;
-  }
-
-  .pagebar-vision {
-    background: #5da9ff;
-  }
-
-  .pagebar-roadmap {
-    background: #6d95ff;
-  }
-
-  .pagebar-team {
-    background: #7e7fff;
-  }
-
-  .pagebar-news {
-    background: #8e6bff;
-  }
-
-  .pagebar-support {
-    background: #a367ff;
-  }
-
-  .page-bg {
-    background: #0c0311;
-    padding-bottom: 40px;
-  }
-
-  .page-header {
-    height: 52px;
-    font-family: Montserrat;
-    font-size: 34px;
-    font-weight: 700;
-    font-style: italic;
-    font-stretch: normal;
-    margin: 20px 0;
-    letter-spacing: normal;
-    text-align: center;
-    color: #748397;
-    text-transform: uppercase;
-  }
-
-  .stem-container {
-    margin-top: -25px;
-  }
-
-  .brain {
-    width: 65%;
-  }
-
-  .video {
-    margin-top: 10px;
-    text-align: center;
-  }
-
-  .navbar {
-    background: #0c0e11;
-    .brand-anchor {
-      color: #fff;
-      letter-spacing: 0.07em;
-      &:hover {
-        color: #777;
-        background-color: #1b1f24;
-      }
-    }
-    a.anchor {
-      margin: 0 10px;
+    body {
       font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
-      text-transform: uppercase;
-      font-size: .85em;
-      font-style: italic;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
     }
-    a.utility {
+
+    a {
       color: #45c8fe;
     }
-    a.vision {
-      color: #5da9ff;
-    }
-    a.roadmap {
-      color: #6d95ff;
-    }
-    a.team {
-      color: #7e7fff;
-    }
-    a.news {
-      color: #8e6bff;
-    }
-    a.support {
+
+    .navbar-menu {
+      background-color: #0c0e11;
+    } // GLOBAL STYLES
+    .main-button {
+      width: 200px;
+      height: 48px;
+      border-radius: 4px;
+      background: #ffffff;
+      box-shadow: inset 0 -3px 0 0 rgba(204, 204, 204, 0.5);
       color: #a367ff;
-    }
-    a.whitepaper {
-      font-family: Montserrat;
-      font-size: 13px;
+      font-family: 'Montserrat';
       font-weight: 900;
       font-style: italic;
-      padding: 7px 18px;
-      border-radius: 4px;
-      box-shadow: inset 0 -3px 0 0 rgba(204, 204, 204, 0.5);
+      text-transform: uppercase;
+      &:hover {
+        background: #a367ff;
+        color: #fff;
+        transition: all 0.5s ease;
+      }
     }
-  }
 
-  .mesh-color-1 {
-    color: #45c8fe;
-  }
+    .sense-button {
+      background-color: #ffffff;
+      box-shadow: inset 0 -3px 0 0 rgba(204, 204, 204, 0.5);
+      color: #a367ff;
+      font-family: 'Montserrat';
+      font-weight: 900;
+      font-style: italic;
+      text-transform: uppercase;
+      &:hover {
+        background: #a367ff;
+        color: #fff;
+        transition: all 0.5s ease;
+      }
+    }
 
-  .mesh-color-2 {
-    color: #5da9ff;
-  }
+    .pagebar {
+      width: 100%;
+      height: 90px;
+      box-shadow: inset 0 -5px 0 0 rgba(27, 31, 36, 0.3);
+      z-index: -1; // margin-bottom: 70px;
+      h1.header-text {
+        font-family: Montserrat;
+        font-size: 5rem;
+        font-weight: 800;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 2px rgba(27, 31, 36, 0.3);
+        @media screen and (max-width: 768px) {
+          font-size: 3.5rem;
+        }
+      }
+    }
 
-  .mesh-color-3 {
-    color: #6d95ff;
-  }
+    .pagebar-utility {
+      background: #45c8fe;
+    }
 
-  .mesh-color-4 {
-    color: #7e7fff;
-  }
+    .pagebar-vision {
+      background: #5da9ff;
+    }
 
-  .mesh-color-5 {
-    color: #8e6bff;
-  }
+    .pagebar-roadmap {
+      background: #6d95ff;
+    }
 
-  .mesh-color-6 {
-    color: #a367ff;
-  }
+    .pagebar-team {
+      background: #7e7fff;
+    }
 
-  .header-section {
-    padding: 20px 0;
-    @media screen and (max-width: 768px) {
+    .pagebar-news {
+      background: #8e6bff;
+    }
+
+    .pagebar-support {
+      background: #a367ff;
+    }
+
+    .page-bg {
+      background: #0c0311;
+      padding-bottom: 40px;
+    }
+
+    .page-header {
+      height: 52px;
+      font-family: Montserrat;
+      font-size: 34px;
+      font-weight: 700;
+      font-style: italic;
+      font-stretch: normal;
+      margin: 20px 0;
+      letter-spacing: normal;
+      text-align: center;
+      color: #748397;
+      text-transform: uppercase;
+    }
+
+    .stem-container {
+      margin-top: -25px;
+    }
+
+    .brain {
+      width: 65%;
+    }
+
+    .video {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .navbar {
+      background: #0c0e11;
+      .brand-anchor {
+        color: #fff;
+        letter-spacing: 0.07em;
+        &:hover {
+          color: #777;
+          background-color: #1b1f24;
+        }
+      }
+      a.anchor {
+        margin: 0 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: .85em;
+        font-style: italic;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      a.utility {
+        color: #45c8fe;
+      }
+      a.vision {
+        color: #5da9ff;
+      }
+      a.roadmap {
+        color: #6d95ff;
+      }
+      a.team {
+        color: #7e7fff;
+      }
+      a.news {
+        color: #8e6bff;
+      }
+      a.support {
+        color: #a367ff;
+      }
+      a.whitepaper {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 900;
+        font-style: italic;
+        padding: 7px 18px;
+        border-radius: 4px;
+        box-shadow: inset 0 -3px 0 0 rgba(204, 204, 204, 0.5);
+      }
+    }
+
+    .mesh-color-1 {
+      color: #45c8fe;
+    }
+
+    .mesh-color-2 {
+      color: #5da9ff;
+    }
+
+    .mesh-color-3 {
+      color: #6d95ff;
+    }
+
+    .mesh-color-4 {
+      color: #7e7fff;
+    }
+
+    .mesh-color-5 {
+      color: #8e6bff;
+    }
+
+    .mesh-color-6 {
+      color: #a367ff;
+    }
+
+    .header-section {
+      padding: 20px 0;
+      @media screen and (max-width: 768px) {
+        padding: 0;
+      }
+    }
+
+    .home-section {
+      .title {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-style: italic;
+        padding: 30px 0;
+        @media screen and (max-width: 768px) {
+          font-size: 2rem;
+        }
+      }
+      .subtitle {
+        color: #fff;
+        font-size: 1.1em;
+        padding: 10px 50px 20px 0;
+      }
+      .home-image {
+        padding: 10px 0;
+        color: #fff;
+        text-align: center;
+        margin-bottom: -90px;
+        img {
+          width: 70%;
+          @media screen and (max-width: 768px) {
+            width: 100%;
+            margin: 0 auto;
+          }
+        }
+      }
+      .vector-brain {
+        width: 80%;
+      }
+    }
+
+    .util-text {
+      padding: 0 30px;
+      align-self: flex-end;
+      font-size: 10px;
+      font-weight: bold;
+      font-style: italic;
+      font-stretch: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #748397;
+      margin-top: auto;
+    }
+
+    .util-vector {
+      height: 70px;
+      width: 60px;
+      margin-left: 15px;
       padding: 0;
     }
-  }
 
-  .home-section {
-    .title {
-      color: #fff;
-      font-size: 3rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      font-style: italic;
-      padding: 30px 0;
+    .vector-rm {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      height: 50px;
+      width: 50px;
+    }
+
+    #vision-page iframe {
+      width: 700px;
+      height: 393.75px;
       @media screen and (max-width: 768px) {
-        font-size: 2rem;
+        width: 300px;
+        height: 168.75px;
       }
     }
-    .subtitle {
-      color: #fff;
-      font-size: 1.1em;
-      padding: 10px 50px 20px 0;
-    }
-    .home-image {
+
+    .vision-img {
       padding: 10px 0;
-      color: #fff;
-      text-align: center;
-      margin-bottom: -90px;
+      height: 95px;
     }
-    .vector-brain {
-      width: 80%;
+
+    .bitmoji {
+      border-radius: 50%;
+      height: 140px;
+      width: 140px;
     }
-  }
 
-  .util-text {
-    padding: 0 30px;
-    align-self: flex-end;
-    font-size: 10px;
-    font-weight: bold;
-    font-style: italic;
-    font-stretch: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #748397;
-    margin-top: auto;
-  }
-  .util-vector {
-    height: 70px;
-    width: 60px;
-    margin-left: 15px;
-    padding: 0;
-  }
-  .vector-rm {
-    padding: 20px 0;
-    width: 50px;
-    height: 30px;
-    margin: 0 auto;
-  }
-  // .util-img {
-  //   text-align: center;
-  //   padding: 0 20px;
-  // }
-
-  #vision-page iframe {
-    width: 700px;
-    height: 393.75px;
-    @media screen and (max-width: 768px) {
-      width: 300px;
-      height: 168.75px;
-    }
-  }
-
-  .vision-img {
-    padding: 10px 0;
-    height: 95px;
-  }
-
-  .bitmoji {
-    border-radius: 50%;
-  }
-
-  .advisor {
-    border-radius: 50%;
-    background: #111;
-    outline: none;
-  }
-
-  .flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    padding: 15px 0;
-  }
-
-  .flex-column {
-    display: flex;
-    flex-flow: column nowrap;
-  }
-
-  .global-header {
-    padding: 10px 30px;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-  }
-
-  .global-bold {
-    font-weight: 600;
-  }
-
-  .global-text {
-    padding: 0px 30px;
-    font-size: 13px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-  }
-
-  .roadmap-header {
-    padding: 15px 0;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: italic;
-    font-stretch: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-transform: uppercase;
-    text-align: center;
-    color: #748397;
-  }
-
-  .circle-section {
-    background: #fff;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    box-shadow: inset 0 -3px 0 0 rgba(221, 221, 221, 0.5);
-  }
-  .roadmap .circle-section {
-    position: relative;
-  }
-  .team-circle-section {
-    position: relative;
-    background: #fff;
-    border-radius: 50%;
-    height: 140px;
-    width: 140px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    box-shadow: inset 0 -3px 0 0 rgba(221, 221, 221, 0.5);
-  }
-
-  .team-name {
-    padding: 0 0 0 20px;
-    font-size: 14px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-align: left;
-  }
-
-  .team-position {
-    padding: 5px 0 0 20px;
-    font-size: 13px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-  }
-
-  .news-img {
-    padding: 30px 0;
-  }
-
-  .social-set {
-    padding: 1rem 0.25rem;
-  }
-
-  .social-icons img {
-    margin: 0 7px 0 0;
-    padding-top: 15px;
-  }
-
-  .news-headline {
-    padding: 15px 25px;
-    font-size: 14px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.57;
-    letter-spacing: normal;
-    text-align: left;
-  }
-
-  .news-excerpt {
-    padding: 0px 25px;
-    font-size: 13px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.69;
-    letter-spacing: normal;
-    text-align: left;
-    color: #748397;
-  }
-
-  .square-section {
-    margin: 0 auto;
-    width: 248px;
-    height: 300px;
-    border-radius: 4px;
-    background-color: #1b1f24;
-    box-shadow: inset 0 -5px 0 0 rgba(7, 7, 7, 0.5);
-    @media screen and (max-width: 768px) {
-      width: 100%;
-    }
-  }
-
-  .square-header {
-    width: 248px;
-    height: 99px;
-    border-radius: 4px;
-    background-color: #ffffff;
-    box-shadow: inset 0 -5px 0 0 rgba(221, 221, 221, 0.5);
-    @media screen and (max-width: 768px) {
-      width: 100%;
-    }
-  }
-
-  .coin-header {
-    display: inline;
-  }
-
-  .stock-section {
-    height: 90px;
-    background: #fff;
-    .coin-name {
-      color: #111;
-      display: inline;
-      vertical-align: middle;
+    .ariel {
+      background: url('./assets/team/Ariel-10.jpg') no-repeat;
       &:hover {
-        color: #111;
+        background: url('./assets/team/Ariel-11.jpg') no-repeat;
       }
     }
-  }
 
-  .sense-icon {
-    height: 40px;
-    margin: 0 5px;
-    background: #111;
-    border-radius: 50%;
-    display: inline;
-    vertical-align: middle;
-  } // FOOTER
-  .footer {
-    background: #0c0311;
-  }
+    .angel {
+      background: url('./assets/team/Ariel-10.jpg') no-repeat;
+      &:hover {
+        background: url('./assets/team/Ariel-11.jpg') no-repeat;
+      }
+    }
 
-  .card {
-    margin: 0 0 10px 0;
-    background-color: #1b1f24;
-    box-shadow: inset 0 -5px 0 0 rgba(12, 14, 17, 0.5);
-    border-radius: 4px;
-  }
+    .ariel {
+      background: url('./assets/team/Ariel-10.jpg') no-repeat;
+      &:hover {
+        background: url('./assets/team/Ariel-11.jpg') no-repeat;
+      }
+    }
 
-  p.card-header-title {
-    font-size: 15px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-  }
+    .brandon {
+      background: url('./assets/team/Brandon_1.png') no-repeat;
+      &:hover {
+        background: url('./assets/team/Brandon-2.png') no-repeat;
+      }
+    }
 
-  p.support-header-title {
-    padding: 20px 10px;
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-  }
+    .crystal {
+      background: url('./assets/team/Crystal-01.jpg') no-repeat;
+      &:hover {
+        background: url('./assets/team/Crystal-02.png') no-repeat;
+      }
+    }
 
-  .support-section {
-    max-width: 760px;
-    margin: 10px auto 0;
-  }
+    .jay {
+      background: url('./assets/team/jay.png') no-repeat;
+      &:hover {
+        background: url('./assets/team/jay2.jpg') no-repeat;
+      }
+    }
 
-  .stock-section {
-    padding: 20px 0;
-  }
+    .eli {
+      background: url('./assets/team/Eli-02.jpg') no-repeat;
+      &:hover {
+        background: url('./assets/team/Eli-03.jpg') no-repeat;
+      }
+    }
 
-  .stock-ticker p {
-    font-size: 12px;
-  }
+    .eyal {
+      background: url('./assets/team/Eyal-06.png') no-repeat;
+      &:hover {
+        background: url('./assets/team/Eyal-07.png') no-repeat;
+      }
+    }
 
-  .price-up {
-    color: rgb(11, 204, 11)
-  }
+    .grover {
+      background: url('./assets/team/Grover-11.png') no-repeat;
+      &:hover {
+        background: url('./assets/team/Grover-12.png') no-repeat;
+      }
+    }
 
-  .price-down {
-    color: #ff0000;
-  }
+    .ross {
+      background: url('./assets/team/Ross-04.png') no-repeat;
+      &:hover {
+        background: url('./assets/team/Ross-05.png') no-repeat;
+      }
+    }
 
-  .coin-price {
-    font-size: .85em;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-  }
+    .shalili {
+      background: url('./assets/team/Shaili-08.png') no-repeat;
+      &:hover {
+        background: url('./assets/team/Shaili-09.png') no-repeat;
+      }
+    }
 
-  .coin-info {
-    font-size: .95em;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-  }
+    .stef {
+      background: url('./assets/team/stef-01.jpg') no-repeat;
+      &:hover {
+        background: url('./assets/team/stef-02.jpg') no-repeat;
+      }
+    }
 
-  h4.currency-info {
-    color: #111;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-  }
+    .nelson {
+      background: url('./assets/team/Nelson-01.jpg') no-repeat;
+      &:hover {
+        background: url('./assets/team/Nelson-02.jpg') no-repeat;
+      }
+    }
 
-  .buy-button {
-    padding: 20px 50px;
-    margin: 0 5px;
-    background: #a367ff;
-    color: #fff;
-  }
+    .team-image {
+      position: relative;
+      background-position: center center;
+      background-size: 100%;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      &:hover {
+        background-position: center center;
+        background-position: center center;
+        background-size: 100%;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+      }
+    }
 
-  .sell-button {
-    padding: 20px 50px;
-    margin: 0 5px;
-    background: #fff;
-    border: 1px solid #a367ff;
-    color: #a367ff;
-  }
+    .advisor {
+      border-radius: 50%;
+      background: #111;
+      outline: none;
+    }
 
-  .support-answer {
-    color: #fff;
-    word-wrap: break-word;
-  }
+    .flex-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      padding: 15px 0;
+    }
 
-  .separator {
-    width: 100%;
-    margin: 0 auto 15px auto;
-    height: 1px;
-    background-image: linear-gradient(to right, #45c8fe, #a367ff);
-  }
+    .flex-column {
+      display: flex;
+      flex-flow: column nowrap;
+    }
 
-  .footer {
-    background: #1b1f24;
-  }
+    .global-header {
+      padding: 10px 30px;
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+    }
 
-  .footer-coin-name {
-    color: #fff;
-  }
+    .global-bold {
+      font-weight: 600;
+    }
 
-  .footer li {
-    padding: 10px 0;
-  }
+    .global-text {
+      padding: 0px 30px;
+      font-size: 13px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+    }
 
-  .copyright {
-    font-family: Montserrat;
-    font-size: 13px;
-    font-weight: 300;
-    text-align: left;
-    color: #748397;
-  }
-
-  .footer-links {
-    font-family: Montserrat;
-    font-size: 13px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-    &:hover {
+    .roadmap-header {
+      padding: 15px 0;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: italic;
+      font-stretch: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-transform: uppercase;
+      text-align: center;
       color: #748397;
     }
-  } // OVERRIDES
-  .navbar .brand-anchor:hover {
-    background-color: transparent;
-  }
+
+    .circle-section {
+      background: #fff;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      box-shadow: inset 0 -3px 0 0 rgba(221, 221, 221, 0.5);
+    }
+
+    .roadmap .circle-section {
+      position: relative;
+    }
+
+    .roadmap .energy-cell {
+      position: absolute;
+      top: 8px;
+      right: -10px;
+      height: 35px;
+      width: 35px;
+      background: #333;
+      border-radius: 50%;
+      border: 3px solid #333;
+    }
+
+    .roadmap .half {
+      position: absolute;
+      top: 8px;
+      padding: 1px;
+      right: -10px;
+      height: 35px;
+      width: 35px;
+      background: #333;
+      border-radius: 50%;
+      border: 3px solid #333;
+    }
+
+    .team-circle-section {
+      position: relative;
+      background: #fff;
+      border-radius: 50%;
+      height: 140px;
+      width: 140px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      box-shadow: inset 0 -3px 0 0 rgba(221, 221, 221, 0.5);
+    }
+
+    .team-name {
+      padding: 0 0 0 20px;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: left;
+    }
+
+    .team-position {
+      padding: 5px 0 0 20px;
+      font-size: 13px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+    }
+
+    .news-img {
+      padding: 30px 0;
+    }
+
+    .social-set {
+      padding: 1rem 0.25rem;
+    }
+
+    .social-icons {
+      display: inline-block;
+      margin: 0 7px 0 0;
+      padding-top: 15px;
+    }
+
+    .news-headline {
+      padding: 15px 25px;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+      text-align: left;
+    }
+
+    .news-excerpt {
+      padding: 0px 25px;
+      font-size: 13px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.69;
+      letter-spacing: normal;
+      text-align: left;
+      color: #748397;
+    }
+
+    .square-section {
+      margin: 0 auto;
+      width: 248px;
+      height: auto;
+      border-radius: 4px;
+      background-color: #1b1f24;
+      box-shadow: inset 0 -5px 0 0 rgba(7, 7, 7, 0.5);
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    .square-header {
+      width: 248px;
+      height: 99px;
+      border-radius: 4px;
+      background-color: #ffffff;
+      box-shadow: inset 0 -5px 0 0 rgba(221, 221, 221, 0.5);
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    .coin-header {
+      display: inline;
+    }
+
+    .stock-section {
+      height: 90px;
+      background: #fff;
+      .coin-name {
+        color: #111;
+        display: inline;
+        vertical-align: middle;
+        &:hover {
+          color: #111;
+        }
+      }
+    }
+
+    .sense-icon {
+      height: 40px;
+      margin: 0 5px;
+      background: #111;
+      border-radius: 50%;
+      display: inline;
+      vertical-align: middle;
+    } // FOOTER
+    .footer {
+      background: #0c0311;
+    }
+
+    .card {
+      margin: 0 0 10px 0;
+      background-color: #1b1f24;
+      box-shadow: inset 0 -5px 0 0 rgba(12, 14, 17, 0.5);
+      border-radius: 4px;
+    }
+
+    p.card-header-title {
+      font-size: 15px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
+    }
+
+    p.support-header-title {
+      padding: 20px 10px;
+      margin-left: 10px;
+      font-size: 15px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fff;
+    }
+
+    .support-section {
+      max-width: 760px;
+      margin: 10px auto 0;
+    }
+
+    .stock-section {
+      padding: 20px 0;
+    }
+
+    .stock-ticker p {
+      font-size: 12px;
+    }
+
+    .price-up {
+      color: rgb(11, 204, 11)
+    }
+
+    .price-down {
+      color: #ff0000;
+    }
+
+    .coin-price {
+      font-size: .85em;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .coin-info {
+      font-size: .95em;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h4.currency-info {
+      color: #111;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+
+    .buy-button {
+      padding: 20px 50px;
+      margin: 0 5px;
+      background: #a367ff;
+      color: #fff;
+    }
+
+    .sell-button {
+      padding: 20px 50px;
+      margin: 0 5px;
+      background: #fff;
+      border: 1px solid #a367ff;
+      color: #a367ff;
+    }
+
+    .support-answer {
+      color: #fff;
+      word-wrap: break-word;
+    }
+
+    .separator {
+      width: 100%;
+      margin: 0 auto 15px auto;
+      height: 1px;
+      background-image: linear-gradient(to right, #45c8fe, #a367ff);
+    }
+
+    .footer {
+      background: #1b1f24;
+    }
+
+    .footer-coin-name {
+      color: #fff;
+    }
+
+    .footer li {
+      padding: 10px 0;
+    }
+
+    .copyright {
+      font-family: Montserrat;
+      font-size: 13px;
+      font-weight: 300;
+      text-align: left;
+      color: #748397;
+    }
+
+    .footer-links {
+      font-family: Montserrat;
+      font-size: 13px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      &:hover {
+        color: #748397;
+      }
+    } // OVERRIDES
+    .navbar .brand-anchor:hover {
+      background-color: transparent;
+    }

@@ -15,7 +15,9 @@
             </div>
             <div class="column">
               <div class="home-image">
-                <vector class="vector-brain" src="../assets/header/brain.svg" alt=""></vector>
+                <div>
+                  <img src="../assets/header/brain.svg" alt="">
+                </div>
               </div>
             </div>
           </div>
@@ -26,11 +28,9 @@
 </template>
 
 <script>
-import Vector from './Vector'
+
 export default {
-  components: {
-    Vector
-  }
+  name: 'HomeSection'
 }
 </script>
 

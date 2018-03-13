@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>half2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="half" fill-rule="nonzero">
+            <g id="Group">
+                <path d="M60,1.59753697 C60,18.1660795 46.5685425,31.597537 30,31.597537 C13.4314575,31.597537 2.02906125e-15,18.1660795 0,1.59753697 C23,-5.40246303 41,13.597537 60,1.59753697 Z" id="Shape-Copy" transform="translate(30.000000, 15.798768) scale(1, -1) translate(-30.000000, -15.798768) "></path>
+                <path d="M60,29.597537 C60,46.1660795 46.5685425,59.597537 30,59.597537 C13.4314575,59.597537 2.02906125e-15,46.1660795 0,29.597537 C23,22.597537 41,41.597537 60,29.597537 Z" id="Shape" fill="#8E6BFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

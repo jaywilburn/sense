@@ -3,20 +3,16 @@
     <div class="pagebar pagebar-team">
       <h1 class="header-text">Team</h1>
     </div>
-    <div id="demo">
-      <div v-show="active">Show</div>
-      <div v-on:mouseover="active = !active">
-        <h1>Hover me!</h1>
-      </div>
-    </div>
 
     <div class="stem-container container">
-      <div class="columns">
+      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-
+              <div class="bitmoji">
+                <div class="ariel team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -24,8 +20,12 @@
                 <p class="team-position">Backend</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                  <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/ajose01/">
+                  <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -34,7 +34,9 @@
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/Ariel-10.jpg" alt="">
+              <div class="bitmoji">
+                <div class="ariel team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -42,8 +44,12 @@
                 <p class="team-position">Science</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                  <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/arieljalali/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -52,7 +58,9 @@
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/Brandon_1.png" alt="">
+              <div class="bitmoji">
+                <div class="brandon team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -60,8 +68,12 @@
                 <p class="team-position">Partnerships</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                  <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/brandon-hiemstra-17292b106/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -70,7 +82,9 @@
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/Crystal-01.jpg" alt="">
+              <div class="bitmoji">
+                <div class="crystal team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -78,19 +92,25 @@
                 <p class="team-position">CEO</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                  <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/rosecrystal/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="columns">
+      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-
+              <div class="bitmoji">
+                <div class="jay team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -98,8 +118,12 @@
                 <p class="team-position">Frontend</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/jaywilburn/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -108,7 +132,9 @@
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/Eli-02.jpg" alt="">
+              <div class="bitmoji">
+                <div class="eli team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -116,8 +142,12 @@
                 <p class="team-position">Community</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/elias-schrank-0b40b5115/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -126,7 +156,9 @@
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/Eyal-06.png" alt="">
+              <div class="bitmoji">
+                <div class="eyal team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -134,8 +166,12 @@
                 <p class="team-position">Operations</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/eyaltoledano/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -144,7 +180,9 @@
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/Grover-11.png" alt="">
+              <div class="bitmoji">
+                <div class="grover team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -152,19 +190,25 @@
                 <p class="team-position">Product</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/groverlight/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="columns">
+      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/Ross-04.png" alt="">
+              <div class="bitmoji">
+                <div class="ross team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -172,8 +216,12 @@
                 <p class="team-position">Backend</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/rossgeesman/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -182,7 +230,9 @@
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/Shaili-08.png" alt="">
+              <div class="bitmoji">
+                <div class="shalili team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -190,8 +240,12 @@
                 <p class="team-position">Culture</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/shailijalali/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -200,7 +254,9 @@
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/stef-01.jpg" alt="">
+              <div class="bitmoji">
+                <div class="stef team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -208,8 +264,12 @@
                 <p class="team-position">CTO</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/stelford1975/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -218,7 +278,9 @@
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
             <div class="team-circle-section">
-              <img class="bitmoji" src="../assets/team/Nelson-01.jpg" alt="">
+              <div class="bitmoji">
+                <div class="nelson team-image"></div>
+              </div>
             </div>
             <div class="columns">
               <div class="column is-two-thirds">
@@ -226,14 +288,18 @@
                 <p class="team-position">Dev Ops</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/nelsonenzo/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="columns">
+      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Advisor</h4>
@@ -246,8 +312,12 @@
                 <p class="team-position">EOS</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/brockpierce/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -264,8 +334,12 @@
                 <p class="team-position">TenX</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/chrismiess/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -282,8 +356,12 @@
                 <p class="team-position">Tether</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/craigcsellars/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -300,14 +378,18 @@
                 <p class="team-position">Ethereum</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/gavin-wood-88843316/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="columns">
+      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Advisor</h4>
@@ -320,8 +402,12 @@
                 <p class="team-position">Bancor</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/galia-benartzi-1a0aa220/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -338,8 +424,12 @@
                 <p class="team-position">Flight Ventures</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/gilpenchina/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -356,8 +446,12 @@
                 <p class="team-position">ChangeCoin</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/nicksullivan/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -374,8 +468,12 @@
                 <p class="team-position">CTO</p>
               </div>
               <div class="column social-set">
-                <!-- <a class="social-icons" href="#"><icon width="20" height="20" :glyph="Twitter"></icon></a>
-                <a class="social-icons" href="#"><icon width="20" height="20" :glyph="LinkedIn"></icon></a> -->
+                <a href="https://twitter.com/sensay">
+                <img class="social-icons" src="../assets/sense/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/simondixonbankingreform/">
+                <img class="social-icons" src="../assets/sense/linked.svg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -390,13 +488,7 @@
 </template>
 
 <script>
-import Icon from './Icon'
-// import Twitter from '../assets/sense/Twitter_Logo_Blue copy.svg'
-// import LinkedIn from '../assets/sense/linked.svg'
 export default {
-  components: {
-    Icon
-  },
   data () {
     return {
       active: false

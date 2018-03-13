@@ -6,7 +6,7 @@
 
     <div class="stem-container container">
       <div class="columns">
-        <div class="column">
+        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="50">
           <div class="square-section">
             <div class="flex-container">
               <div class="flex-column">
@@ -14,7 +14,7 @@
               </div>
               <div class="flex-column">
                 <div class="util-vector">
-                  <vector src="../assets/utility/attribute.svg" alt=""></vector>
+                  <img src="../assets/utility/attribute.svg" alt="">
                 </div>
               </div>
             </div>
@@ -26,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div class="column">
+        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="100">
           <div class="square-section">
             <div class="flex-container">
               <div class="flex-column">
@@ -34,7 +34,7 @@
               </div>
               <div class="flex-column">
                 <div class="util-vector">
-                  <vector src="../assets/utility/earn.svg" alt=""></vector>
+                  <img src="../assets/utility/earn.svg" alt="">
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        <div class="column">
+        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150">
           <div class="square-section">
             <div class="flex-container">
               <div class="flex-column">
@@ -54,7 +54,7 @@
               </div>
               <div class="flex-column">
                 <div class="util-vector">
-                  <vector src="../assets/utility/access.svg" alt=""></vector>
+                  <img src="../assets/utility/access.svg" alt="">
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@
             </div>
           </div>
         </div>
-        <div class="column">
+        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
           <div class="square-section">
             <div class="flex-container">
               <div class="flex-column">
@@ -74,7 +74,7 @@
               </div>
               <div class="flex-column">
                 <div class="util-vector">
-                  <vector src="../assets/utility/build.svg" alt=""></vector>
+                  <img src="../assets/utility/build.svg" alt="">
                 </div>
               </div>
             </div>
@@ -97,10 +97,9 @@
 </template>
 
 <script>
-import Vector from './Vector'
+
 export default {
   components: {
-    Vector
   },
   data () {
     return {
