@@ -6,10 +6,10 @@
     <div class="stem-container container">
       <div class="columns">
         <div class="column">
-          <a href="">
+          <a href="https://techcrunch.com/2016/08/02/sensay-chat-platform-raises-4-5m-in-seed-funding-from-nvp/">
           <div class="square-section">
             <div class="square-header has-text-centered">
-              <img class="vision-img" src="http://via.placeholder.com/50x80" alt="">
+              <img class="news-img" src="../assets/news/tc.png" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -21,10 +21,10 @@
           </a>
         </div>
         <div class="column">
-          <a href="">
+          <a href="https://venturebeat.com/2017/04/25/sensay-wants-to-help-people-buy-and-sell-anonymous-advice/">
           <div class="square-section">
             <div class="square-header has-text-centered">
-              <img class="vision-img" src="http://via.placeholder.com/50x80" alt="">
+              <img class="news-img" src="../assets/news/vb.png" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -36,10 +36,10 @@
           </a>
         </div>
         <div class="column">
-          <a href="">
+          <a href="https://cryptotim.es/crystal-rose-interview/">
           <div class="square-section">
             <div class="square-header has-text-centered">
-              <img class="vision-img" src="http://via.placeholder.com/50x80" alt="">
+              <img class="news-img" src="../assets/news/tct.png" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -51,15 +51,15 @@
           </a>
         </div>
         <div class="column">
-          <a href="">
+          <a href="https://blog.icoalert.com/ico-alert-report-sense-2998121ec306?gi=955776d25a8">
           <div class="square-section">
             <div class="square-header has-text-centered">
-              <img class="vision-img" src="http://via.placeholder.com/50x80" alt="">
+              <img class="news-img" src="../assets/news/ia.png" alt="">
             </div>
             <div class="columns">
               <div class="column">
-                <p class="news-headline mesh-color-4">{{ news.blank1.headline }}</p>
-                <p class="news-excerpt">{{ news.blank1.excerpt }}</p>
+                <p class="news-headline mesh-color-4">{{ news.ico.headline }}</p>
+                <p class="news-excerpt">{{ news.ico.excerpt }}</p>
               </div>
             </div>
           </div>
@@ -68,25 +68,25 @@
       </div>
       <div class="columns">
         <div class="column">
-          <a href="">
+          <a href="https://blog.botlist.co/bridging-the-gap-between-human-intelligence-and-ai-with-sense/">
           <div class="square-section">
             <div class="square-header has-text-centered">
-              <img class="vision-img" src="http://via.placeholder.com/50x80" alt="">
+              <img class="news-img" src="../assets/news/bl.png" alt="">
             </div>
             <div class="columns">
               <div class="column">
-                <p class="news-headline mesh-color-5">{{ news.blank2.headline }}</p>
-                <p class="news-excerpt">{{ news.blank2.excerpt }}</p>
+                <p class="news-headline mesh-color-5">{{ news.botlist.headline }}</p>
+                <p class="news-excerpt">{{ news.botlist.excerpt }}</p>
               </div>
             </div>
           </div>
           </a>
         </div>
         <div class="column">
-          <a href="">
+          <a href="https://www.huffingtonpost.com/entry/59dcd475e4b0a1bb90b83112">
           <div class="square-section">
             <div class="square-header has-text-centered">
-              <img class="vision-img" src="http://via.placeholder.com/50x80" alt="">
+              <img class="news-img" src="../assets/news/hp.png" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -98,10 +98,10 @@
           </a>
         </div>
         <div class="column">
-          <a href="">
+          <a href="https://cointelegraph.com/press-releases/prominent-institutional-and-angel-contributors-participate-in-senses-token-sale">
           <div class="square-section">
             <div class="square-header has-text-centered">
-              <img class="vision-img" src="http://via.placeholder.com/50x80" alt="">
+              <img class="news-img" src="../assets/news/ct.png" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -113,10 +113,10 @@
           </a>
         </div>
         <div class="column">
-          <a href="">
+          <a href="https://www.forbes.com/sites/geekgirlrising/2017/09/19/3-women-making-waves-in-the-cryptocurrency-industry/&refURL=https://www.sensetoken.com/&referrer=https://www.sensetoken.com/#655c84807b25">
           <div class="square-section">
             <div class="square-header has-text-centered">
-              <img class="vision-img" src="http://via.placeholder.com/50x80" alt="">
+              <img class="news-img" src="../assets/news/f.png" alt="">
             </div>
             <div class="columns">
               <div class="column">
@@ -130,7 +130,7 @@
       </div>
       <div class="bottom-cta has-text-centered">
         <h2 class="page-header">Mention Us</h2>
-        <a href="" class="button main-button">Get Presskit</a>
+        <a href="https://brandfolder.com/sensay" class="button main-button">Get Presskit</a>
       </div>
     </div>
   </div>
@@ -153,11 +153,11 @@ export default {
           headline: 'SENSE Token – An Interview with Founder and CEO Crystal Rose',
           excerpt: 'Sensay is a platform that connects users upon request to other users for real human advice or inspiration. It’s…'
         },
-        blank1: {
+        botlist: {
           headline: 'Bridging the Gap Between Human Intelligence and AI – Sense Token Launches in October',
           excerpt: 'First came Sensay, a Los Angeles-based technology company focusing on…'
         },
-        blank2: {
+        ico: {
           headline: 'ICO Alert: SENSE',
           excerpt: 'There are three key components of the project: Sensay, A cross-platform messaging application and bot network that allows users and communities to connect'
         },

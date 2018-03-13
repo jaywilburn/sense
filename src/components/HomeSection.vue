@@ -11,11 +11,11 @@
               <h2 class="subtitle">
                 People still trade time for money, and our moral imperative is to change that
               </h2>
-              <a class="button main-button">Thought Paper</a>
+              <a class="button main-button" href="https://sensetoken.com/pdfs/RU-SENSE-Core-Thought-Paper-v1.pdf">Thought Paper</a>
             </div>
             <div class="column">
               <div class="home-image">
-                <img src="../assets/header/brain.svg" alt="">
+                <vector class="vector-brain" src="../assets/header/brain.svg" alt=""></vector>
               </div>
             </div>
           </div>
@@ -26,11 +26,10 @@
 </template>
 
 <script>
+import Vector from './Vector'
 export default {
-  name: 'HomeSection',
-  data () {
-    return {
-    }
+  components: {
+    Vector
   }
 }
 </script>

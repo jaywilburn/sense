@@ -5,7 +5,9 @@ import App from './App'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
 import vueSmoothScroll from 'vue2-smooth-scroll'
-Vue.use(Buefy)
+Vue.use(Buefy, {
+  defaultIconPack: 'fa'
+})
 Vue.config.productionTip = false
 Vue.use(vueSmoothScroll)
 /* eslint-disable no-new */

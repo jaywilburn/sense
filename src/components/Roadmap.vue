@@ -5,11 +5,11 @@
     </div>
     <div class="stem-container container">
       <div class="columns">
-        <div class="column">
+        <div class="column roadmap">
           <div class="square-section">
             <h4 class="roadmap-header">Q1</h4>
             <div class="circle-section">
-
+              <vector class="vector-rm" src="../assets/roadmap/contact.svg" alt="vector-brain"></vector>
             </div>
             <div class="columns">
               <div class="column">
@@ -19,11 +19,11 @@
             </div>
           </div>
         </div>
-        <div class="column">
+        <div class="column roadmap">
           <div class="square-section">
             <h4 class="roadmap-header">Q2</h4>
             <div class="circle-section">
-
+              <vector class="vector-rm" src="../assets/roadmap/sdks.svg" alt="vector-brain"></vector>
             </div>
             <div class="columns">
               <div class="column">
@@ -33,11 +33,11 @@
             </div>
           </div>
         </div>
-        <div class="column">
+        <div class="column roadmap">
           <div class="square-section">
             <h4 class="roadmap-header">Q3</h4>
             <div class="circle-section">
-
+              <vector class="vector-rm" src="../assets/roadmap/belong.svg" alt="vector-brain"></vector>
             </div>
             <div class="columns">
               <div class="column">
@@ -47,11 +47,11 @@
             </div>
           </div>
         </div>
-        <div class="column">
+        <div class="column roadmap">
           <div class="square-section">
             <h4 class="roadmap-header">Q4</h4>
             <div class="circle-section">
-
+              <vector class="vector-rm" src="../assets/roadmap/clarify.svg" alt="vector-brain"></vector>
             </div>
             <div class="columns">
               <div class="column">
@@ -64,14 +64,18 @@
       </div>
       <div class="bottom-cta has-text-centered">
         <h2 class="page-header">Sense Progress</h2>
-        <a href="" class="button main-button">Read Blog</a>
+        <a href="https://medium.com/sensay" class="button main-button">Read Blog</a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Vector from './Vector'
 export default {
+  components: {
+    Vector
+  },
   data () {
     return {
       roadmap: {

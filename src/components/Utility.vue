@@ -3,6 +3,7 @@
     <div class="pagebar pagebar-utility">
       <h1 class="header-text">Utility</h1>
     </div>
+
     <div class="stem-container container">
       <div class="columns">
         <div class="column">
@@ -12,7 +13,9 @@
                 <p class="util-text is-uppercase">Consumers</p>
               </div>
               <div class="flex-column">
-                <img class="util-img" src="http://via.placeholder.com/70x80" alt="">
+                <div class="util-vector">
+                  <vector src="../assets/utility/attribute.svg" alt=""></vector>
+                </div>
               </div>
             </div>
             <div class="columns">
@@ -30,7 +33,9 @@
                 <p class="util-text is-uppercase">Humans</p>
               </div>
               <div class="flex-column">
-                <img class="util-img" src="http://via.placeholder.com/70x80" alt="">
+                <div class="util-vector">
+                  <vector src="../assets/utility/earn.svg" alt=""></vector>
+                </div>
               </div>
             </div>
             <div class="columns">
@@ -48,7 +53,9 @@
                 <p class="util-text is-uppercase">Businesses</p>
               </div>
               <div class="flex-column">
-                <img class="util-img" src="http://via.placeholder.com/70x80" alt="">
+                <div class="util-vector">
+                  <vector src="../assets/utility/access.svg" alt=""></vector>
+                </div>
               </div>
             </div>
             <div class="columns">
@@ -66,7 +73,9 @@
                 <p class="util-text is-uppercase">Developers</p>
               </div>
               <div class="flex-column">
-                <img class="util-img" src="http://via.placeholder.com/70x80" alt="">
+                <div class="util-vector">
+                  <vector src="../assets/utility/build.svg" alt=""></vector>
+                </div>
               </div>
             </div>
             <div class="columns">
@@ -81,16 +90,18 @@
       </div>
       <div class="bottom-cta has-text-centered">
         <h2 class="page-header">Learn More</h2>
-        <a href="" class="button main-button">Make Sense</a>
+        <a href="https://makesense.com/" class="button main-button">Make Sense</a>
       </div>
-
     </div>
-
   </div>
 </template>
 
 <script>
+import Vector from './Vector'
 export default {
+  components: {
+    Vector
+  },
   data () {
     return {
       utility: {
