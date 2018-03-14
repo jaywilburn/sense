@@ -3,7 +3,7 @@
     <div class="pagebar pagebar-roadmap">
       <h1 class="header-text">Roadmap</h1>
     </div>
-    <div class="stem-container container">
+    <div class="stem-container container sense-container">
       <div class="columns">
         <div class="column roadmap" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
           <div class="square-section">
@@ -24,7 +24,7 @@
           <div class="square-section">
             <h4 class="roadmap-header">Q2</h4>
             <div class="circle-section">
-              <img class="vector-rm" src="../assets/roadmap/sdks.svg" alt="vector-brain">
+              <img class="vector-rm" src="../assets/roadmap/sdk.svg" alt="vector-brain">
               <img class="energy-cell" src="../assets/roadmap/open.svg" alt="">
             </div>
             <div class="columns">

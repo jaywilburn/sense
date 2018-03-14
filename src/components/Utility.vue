@@ -4,7 +4,7 @@
       <h1 class="header-text">Utility</h1>
     </div>
 
-    <div class="stem-container container">
+    <div class="stem-container container sense-container">
       <div class="columns">
         <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="50">
           <div class="square-section">
@@ -34,7 +34,7 @@
               </div>
               <div class="flex-column">
                 <div class="util-vector">
-                  <img src="../assets/utility/earn.svg" alt="">
+                  <img id="earn-icon" src="../assets/utility/earn.svg" alt="">
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@
               </div>
               <div class="flex-column">
                 <div class="util-vector">
-                  <img src="../assets/utility/build.svg" alt="">
+                  <img id="rocket-icon" src="../assets/utility/rocket.svg" alt="">
                 </div>
               </div>
             </div>

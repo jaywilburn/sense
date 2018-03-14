@@ -1,4 +1,5 @@
 <template>
+<div class="container">
   <div class="header-section">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="container">
@@ -39,6 +40,7 @@
         </div>
       </div>
     </nav>
+</div>
 </div>
 </template>
 

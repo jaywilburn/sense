@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="100px" viewBox="0 0 89 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Asset 1idk</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-6.000000, 0.000000)" stroke="#5DA9FF" stroke-width="2">
+            <g id="Asset-1idk" transform="translate(7.000000, 0.000000)">
+                <polygon id="Shape" points="87 75 87 25 43.6470588 0 0.294117647 25 0.294117647 75 43.6470588 100"></polygon>
+                <path d="M43,100 L43,97.4025974" id="Shape"></path>
+                <path d="M43,94.8051948 L43,71.4285714" id="Shape" stroke-dasharray="2.644999980926514"></path>
+                <path d="M43,68.8311688 L43,66.2337662" id="Shape"></path>
+                <path d="M87,25.974026 L84.4117647,27.2727273" id="Shape"></path>
+                <path d="M81.8235294,28.5714286 L61.1176471,40.2597403" id="Shape" stroke-dasharray="2.710000038146973"></path>
+                <path d="M59.8235294,41.5584416 L57.2352941,42.8571429" id="Shape"></path>
+                <path d="M0,25.974026 L2.58823529,27.2727273" id="Shape"></path>
+                <path d="M4.17647059,28.5714286 L24.8823529,40.2597403" id="Shape" stroke-dasharray="2.710000038146973"></path>
+                <path d="M26.1764706,41.5584416 L28.7647059,42.8571429" id="Shape"></path>
+                <polygon id="Shape" points="55.9411765 58.4367276 55.9411765 42.852312 43 35.0649351 30.0588235 42.852312 30.0588235 58.4367276 43 66.2337662"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

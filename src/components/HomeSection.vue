@@ -1,10 +1,12 @@
 <template>
+
   <div class="home-section">
+
     <section class="hero">
-      <div class="hero-body">
-        <div class="container">
+        <div class="container sense-container">
           <div class="columns">
             <div class="column">
+              <div class="sense-home">
               <h1 class="title">
                 The Protocol for Human Knowledge
               </h1>
@@ -12,6 +14,7 @@
                 People still trade time for money, and our moral imperative is to change that
               </h2>
               <a class="button main-button" href="https://sensetoken.com/pdfs/RU-SENSE-Core-Thought-Paper-v1.pdf">Thought Paper</a>
+            </div>
             </div>
             <div class="column">
               <div class="home-image">
@@ -22,9 +25,9 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
-  </div>
+
+</div>
 </template>
 
 <script>

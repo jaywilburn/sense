@@ -13,13 +13,14 @@
               </p>
               <a class="card-header-icon">
                 <b-icon
-                    :icon="props.open ? 'menu-down' : 'menu-up'">
+                    :icon="props.open ? 'menu-down' : 'menu-up'" pack="fa">
                 </b-icon>
               </a>
             </div>
             <div class="card-content">
+              <div class="separator"></div>
               <div class="content">
-                <div class="separator"></div>
+
                 <div class="support-answer" v-html="question.answer"></div>
               </div>
             </div>

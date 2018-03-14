@@ -1,5 +1,6 @@
 <template>
   <div v-if="stockInfo" class='stock-section stock-ticker is-hidden-mobile'>
+    <div class="container">
     <div class="columns">
       <div class="column coin-header has-text-centered">
         <a href="#">
@@ -23,6 +24,7 @@
           Sell
         </a>
       </div>
+    </div>
     </div>
   </div>
 </template>

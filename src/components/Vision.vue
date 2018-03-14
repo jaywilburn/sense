@@ -3,7 +3,7 @@
     <div class="pagebar pagebar-vision">
       <h1 class="header-text">Vision</h1>
     </div>
-    <div class="stem-container container">
+    <div class="stem-container container sense-container">
       <div class="video">
         <iframe src="https://www.youtube.com/embed/9w2L_oNrAQs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
@@ -17,8 +17,8 @@
               </div>
               <div class="columns">
                 <div class="column">
-                  <h4 class="global-header mesh-color-1">SENSE X <span class="global-bold">Ethereum</span></h4>
-                  <p class="global-text">{{ vision.ethereum }}</p>
+                  <h4 class="vision-header mesh-color-1">SENSE X <span class="global-bold">Ethereum</span></h4>
+                  <p class="vision-text">{{ vision.ethereum }}</p>
                 </div>
               </div>
             </div>
@@ -32,8 +32,8 @@
               </div>
               <div class="columns">
                 <div class="column">
-                  <h4 class="global-header mesh-color-2">SENSE X <span class="global-bold">EOS</span></h4>
-                  <p class="global-text">{{ vision.eos }}</p>
+                  <h4 class="vision-header mesh-color-2">SENSE X <span class="global-bold">EOS</span></h4>
+                  <p class="vision-text">{{ vision.eos }}</p>
                 </div>
               </div>
             </div>
@@ -47,8 +47,8 @@
               </div>
               <div class="columns">
                 <div class="column">
-                  <h4 class="global-header mesh-color-3">SENSE X <span class="global-bold">Bancor</span></h4>
-                  <p class="global-text">{{ vision.bancor }}</p>
+                  <h4 class="vision-header mesh-color-3">SENSE X <span class="global-bold">Bancor</span></h4>
+                  <p class="vision-text">{{ vision.bancor }}</p>
                 </div>
               </div>
             </div>
@@ -62,8 +62,8 @@
               </div>
               <div class="columns">
                 <div class="column">
-                  <h4 class="global-header mesh-color-4">SENSE X <span class="global-bold">JAXX</span></h4>
-                  <p class="global-text">{{ vision.jaxx }}</p>
+                  <h4 class="vision-header mesh-color-4">SENSE X <span class="global-bold">JAXX</span></h4>
+                  <p class="vision-text">{{ vision.jaxx }}</p>
                 </div>
               </div>
             </div>

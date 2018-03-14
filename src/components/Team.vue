@@ -4,8 +4,8 @@
       <h1 class="header-text">Team</h1>
     </div>
 
-    <div class="stem-container container">
-      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
+    <div class="stem-container container sense-container">
+      <div class="columns team-columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
+      <div class="columns team-columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
@@ -201,7 +201,7 @@
           </div>
         </div>
       </div>
-      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
+      <div class="columns team-columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Core</h4>
@@ -299,7 +299,7 @@
           </div>
         </div>
       </div>
-      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
+      <div class="columns team-columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Advisor</h4>
@@ -389,7 +389,7 @@
           </div>
         </div>
       </div>
-      <div class="columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
+      <div class="columns team-columns" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
         <div class="column">
           <div class="square-section">
             <h4 class="roadmap-header">Advisor</h4>
