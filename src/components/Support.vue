@@ -13,7 +13,7 @@
               </p>
               <a class="card-header-icon">
                 <b-icon
-                    :icon="props.open ? 'menu-down' : 'menu-up'" pack="fa">
+                    :icon="props.open ? 'arrow-up' : 'arrow-down'" pack="fa">
                 </b-icon>
               </a>
             </div>

@@ -6,7 +6,7 @@
 
     <div class="stem-container container sense-container">
       <div class="columns">
-        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="50">
+        <div class="column" data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="50">
           <div class="square-section">
             <div class="flex-container">
               <div class="flex-column">
@@ -26,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="100">
+        <div class="column" data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="100">
           <div class="square-section">
             <div class="flex-container">
               <div class="flex-column">
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150">
+        <div class="column" data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="150">
           <div class="square-section">
             <div class="flex-container">
               <div class="flex-column">
@@ -66,7 +66,7 @@
             </div>
           </div>
         </div>
-        <div class="column" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+        <div class="column" data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
           <div class="square-section">
             <div class="flex-container">
               <div class="flex-column">

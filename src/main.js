@@ -16,7 +16,12 @@ Vue.use(vueSmoothScroll)
 new Vue({
   el: '#app',
   created () {
-    AOS.init({ disable: 'mobile' })
+    AOS.init({
+      disable: () => {
+        let maxAosWidth = 768
+        return window.innerWidth < maxAosWidth
+      }
+    })
   },
   components: { App },
   template: '<App/>'

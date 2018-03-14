@@ -314,14 +314,14 @@
       width: 140px;
     }
 
-    .ariel {
-      background: url('./assets/team/Ariel-10.jpg') no-repeat;
+    .angel {
+      background: url('./assets/team/angel.jpg') no-repeat;
       &:hover {
-        background: url('./assets/team/Ariel-11.jpg') no-repeat;
+        background: url('./assets/team/angel2.jpg') no-repeat;
       }
     }
 
-    .angel {
+    .ariel {
       background: url('./assets/team/Ariel-10.jpg') no-repeat;
       &:hover {
         background: url('./assets/team/Ariel-11.jpg') no-repeat;
@@ -561,9 +561,15 @@
     }
 
     .team-columns {
-      margin-bottom: 2rem;
+      padding-bottom: 2rem;
       @media screen and (max-width: 768px) {
-        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      [data-aos-delay] {
+        transition-delay: 0 !important;
       }
     }
 
@@ -581,7 +587,7 @@
 
     .team-name {
       padding: 0 0 0 20px;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 500;
       font-style: normal;
       font-stretch: normal;
@@ -607,7 +613,13 @@
     }
 
     .social-set {
-      padding: 1rem 0.25rem;
+      padding: 0rem 0.25rem;
+      float: right;
+      display: inline;
+      margin: 0;
+      @media screen and (max-width: 480px) {
+        padding: 0 20px;
+      }
     }
 
     .social-icons {
@@ -724,6 +736,7 @@
       letter-spacing: normal;
       text-align: left;
       color: #fff;
+      width: 100%;
     }
 
     .support-section {
@@ -785,7 +798,9 @@
       word-wrap: break-word;
       line-height: 1.9;
     }
-
+    .card-header-icon {
+      float: right;
+    }
     .separator {
       width: 100%;
       margin: 0 auto 15px auto;
@@ -795,9 +810,18 @@
 
     .footer {
       background: #1b1f24;
-      padding: 0;
+      @media screen and (max-width: 768px) {
+        padding: 20px
+      }
     }
-
+    .footer-social {
+      margin: 0 auto;
+      text-align: center;
+      li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
     .footer-coin-name {
       color: #fff;
     }
@@ -805,13 +829,21 @@
     .footer li {
       padding: 10px 0;
     }
-
+    .sensay {
+      color: #69788c;
+      padding: 20px 0;
+    }
     .copyright {
       font-family: Montserrat;
       font-size: 13px;
       font-weight: 300;
-      text-align: left;
+      text-align: center;
       color: #748397;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+      }
     }
 
     .footer-links {
@@ -827,7 +859,14 @@
       &:hover {
         color: #748397;
       }
-    } // OVERRIDES
+    }
+
+    .footer-twitter {
+      height: 25px;
+    }
+
+
+    // OVERRIDES
     .navbar .brand-anchor:hover {
       background-color: transparent;
     }

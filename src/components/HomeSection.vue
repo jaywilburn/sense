@@ -17,7 +17,7 @@
             </div>
             </div>
             <div class="column">
-              <div class="home-image">
+              <div class="home-image is-hidden-mobile">
                 <div>
                   <img src="../assets/header/brain.svg" alt="">
                 </div>
